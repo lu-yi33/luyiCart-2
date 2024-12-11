@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4;
+    color: #333;
+}
+
+header,
+.footer {
+    /* background-color: #005CA9; */
+    background-color: #19679C;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 16px;
+}
+
+.main-content {
+    padding: 16px;
+}
+
+.products,
+.cart {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px #000;
+    padding: 16px;
+}
+
+/* .products-item {object-fit: cover} */
+
+.btnA {
+    background-color: #FF7300;
+    color: #FFFFFF;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+
+}
+
+.btnA:hover {
+    background-color: #bb5e16;
+
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+
+/* 針對登入區域樣式 */
+.login-section {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+#toggle-password {
+    border-radius: 0 4px 4px 0;
+}
+
+.btn-show {
+    background-color: #FF7300;
+    color: #FFFFFF;
+
+}
+
+.btn-hide {
+    background-color: #005CA9;
+    color: #FFFFFF;
+}
+
+#login-btn.online {
+    background-color: #898a89;
+    /* 灰色表示在線 */
+    color: #FFFFFF;
+    cursor: default;
+    pointer-events: none;
+    /* 防止再次點擊 */
+}
+
+.product-item img {
+    height: 280px;
+    /* 設置固定高度 */
+    object-fit: cover;
+    /* 確保圖片內容填充但不變形 */
+    width: 100%;
+    /* 確保圖片的寬度滿足容器 */
+    border-radius: 8px;
+    /* 美化圖片邊角，可選 */
+}
+
+
+#toggle-password {
+    border: none;
+    /* 移除邊框 */
+    box-shadow: none;
+    /* 移除陰影 */
+    outline: none;
+    /* 移除點擊後的藍色外框 */
+    background-color: #144a77;
+    /* 按鈕背景色 */
+    color: #FFFFFF;
+    /* 按鈕文字顏色 */
+    cursor: pointer;
+    /* 鼠標指針 */
+    padding: 8px 16px;
+    /* 添加內距讓按鈕更舒適 */
+    border-radius: 4px;
+    /* 圓角效果 */
+}
+
+#toggle-password:hover {
+    background-color: #bb5e16;
+    /* 滑鼠懸停時的效果 */
+}
+
+
+.text-gray {
+    color: rgb(155, 155, 155) !important;
+}
+
